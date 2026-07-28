@@ -1,0 +1,38 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.lineHeight": 21,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "explicit"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "js/ts.referencesCodeLens.enabled": true,
+  "tailwindCSS.suggestions": true,
+  // https://cva.style/docs/getting-started/installation#intellisense
+  "tailwindCSS.classFunctions": ["cva", "cx"],
+  "tailwindCSS.classAttributes": [
+    // Default
+    "class",
+    "className",
+    "classNames",
+    // shadcn/ui - sonner
+    "toastOptions"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "js/ts.tsserver.watchOptions": {
+    "watchDirectory": "useFsEvents",
+    "fallbackPolling": "dynamicPriorityPolling",
+    "watchFile": "useFsEventsOnParentDirectory",
+    "synchronousWatchDirectory": true
+  }
+}
