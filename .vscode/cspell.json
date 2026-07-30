@@ -48,7 +48,13 @@
     "customizer",
     "cnfast",
     "gsap",
-    "drei"
+    "drei",
+    "gltf",
+    "hotspot",
+    "yoyo",
+    "prismic",
+    "prismicio",
+    "slicemachine"
   ],
   // flagWords - list of words to be always considered incorrect
   // This is useful for offensive words and common spelling errors.
