@@ -1,5 +1,6 @@
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { SVGFiltersSquiggle } from "@/components/svg-filters-squiggle";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -7,6 +8,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Header />
       {children}
       <Footer />
+      <SVGFiltersSquiggle />
     </>
   );
 }

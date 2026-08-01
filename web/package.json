@@ -38,6 +38,7 @@
     "prettier": "^3.9.6",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4",
+    "three-stdlib": "^2.36.1",
     "typescript": "^6"
   }
 }

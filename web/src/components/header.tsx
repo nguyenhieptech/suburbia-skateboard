@@ -1,3 +1,31 @@
+import Link from "next/link";
+import { Button } from "@/components/button";
+import { Logo } from "@/components/logo";
+
 export function Header() {
-  return <header>Header</header>;
+  return (
+    <header className="header fl-h-32/48 fl-py-4/6 fl-px-4/6 absolute top-0 right-0 left-0 z-50 md:h-32">
+      <div className="mx-auto grid w-full max-w-6xl grid-cols-[auto,auto] items-center gap-6 md:grid-cols-[1fr,1fr,1fr]">
+        <Link href="/" className="row-start-1 justify-self-start">
+          <Logo className="text-brand-purple fl-h-12/20" />
+        </Link>
+        <nav
+          aria-label="nav-main"
+          className="col-span-2 md:col-span-1 md:col-start-2 md:row-start-1"
+        >
+          <ul className="flex flex-wrap items-center justify-center gap-8">
+            <li className="fl-text-lg/xl">Team</li>
+            <li className="fl-text-lg/xl">Customizer</li>
+            <li className="fl-text-lg/xl">About</li>
+          </ul>
+        </nav>
+        <div className="row-start-1 justify-self-end">
+          <Button icon="cart" color="purple" aria-label="Cart (1)">
+            <span className="md:hidden">1</span>
+            <span className="hidden md:inline">Cart (1)</span>
+          </Button>
+        </div>
+      </div>
+    </header>
+  );
 }
