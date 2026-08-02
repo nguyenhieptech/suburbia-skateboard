@@ -3,10 +3,11 @@
 import gsap from "gsap";
 import { Suspense, useEffect, useRef, useState } from "react";
 import * as THREE from "three";
+import { publicAssets } from "@/assets";
 import { Skateboard } from "@/components/skateboard";
 import { useGSAP } from "@gsap/react";
 import { ContactShadows, Environment, Html } from "@react-three/drei";
-import { Canvas, ThreeEvent, useThree } from "@react-three/fiber";
+import { Canvas, type ThreeEvent, useThree } from "@react-three/fiber";
 import { Hotspot } from "./hotspot";
 import { WavyPaths } from "./wavy-paths";
 
@@ -27,8 +28,8 @@ export function InteractiveSkateboard() {
   );
 }
 
-const deckTextureURL = "/skateboard/yellow-and-black.png";
-const wheelTextureURL = "/skateboard/yellow-wheel.png";
+const deckTextureURL = publicAssets.deck.deckYellowBlack;
+const wheelTextureURL = publicAssets.wheel.wheelYellow;
 const truckColor = "#222";
 const boltColor = "#222";
 
@@ -171,7 +172,7 @@ function Scene() {
 
   return (
     <group>
-      <Environment files={"/hdr/warehouse-256.hdr"} />
+      <Environment files={publicAssets.hdr.warehouse256} />
       <group ref={originRef}>
         <group ref={containerRef} position={[-0.25, 0, -0.635]}>
           <group position={[0, -0.086, 0.635]}>

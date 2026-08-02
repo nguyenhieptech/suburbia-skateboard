@@ -5,6 +5,7 @@ import gsap from "gsap";
 import { useEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 import { GLTF } from "three-stdlib";
+import { publicAssets } from "@/assets";
 import { useGLTF, useTexture } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
@@ -67,8 +68,8 @@ export function Skateboard({
   const deckTextureIndex = deckTextureURLs.findIndex((url) => url === deckTextureURL);
   const deckTexture = deckTextures[deckTextureIndex];
 
-  const gripTapeDiffuse = useTexture("/skateboard/griptape-diffuse.webp");
-  const gripTapeRoughness = useTexture("/skateboard/griptape-roughness.webp");
+  const gripTapeDiffuse = useTexture(publicAssets.gripTapeDiffuse);
+  const gripTapeRoughness = useTexture(publicAssets.gripTapeRoughness);
 
   const gripTapeMaterial = useMemo(() => {
     const material = new THREE.MeshStandardMaterial({
@@ -108,7 +109,7 @@ export function Skateboard({
     [boltColor]
   );
 
-  const metalNormal = useTexture("/skateboard/metal-normal.avif");
+  const metalNormal = useTexture(publicAssets.metalNormal);
   metalNormal.wrapS = THREE.RepeatWrapping;
   metalNormal.wrapT = THREE.RepeatWrapping;
   metalNormal.anisotropy = 8;
