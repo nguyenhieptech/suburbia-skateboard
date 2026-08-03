@@ -100,4 +100,22 @@ export const publicAssets = {
     "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688220/suburbia-skateboard/person-3.png",
   person4:
     "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688217/suburbia-skateboard/person-4.png",
+  team: {
+    carterBack:
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603148/suburbia-skateboard/team/team-carter-back.png",
+    carterFront:
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603147/suburbia-skateboard/team/team-carter-front.png",
+    dylanBack:
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603146/suburbia-skateboard/team/team-dylan-back.png",
+    dylanFront:
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603143/suburbia-skateboard/team/team-dylan-front.png",
+    jordanBack:
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603142/suburbia-skateboard/team/team-jordan-back.png",
+    jordanFront:
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603146/suburbia-skateboard/team/team-jordan-front.png",
+    sophieBack:
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603144/suburbia-skateboard/team/team-sophie-back.png",
+    sophieFront:
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603145/suburbia-skateboard/team/team-sophie-front.png",
+  },
 } as const;
