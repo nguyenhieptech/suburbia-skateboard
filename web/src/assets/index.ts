@@ -90,4 +90,14 @@ export const publicAssets = {
     completeYellowBlack:
       "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603909/suburbia-skateboard/complete/complete-yellow-black.png",
   },
+  bgPaint:
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688229/suburbia-skateboard/bg-paint.png",
+  person1:
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688219/suburbia-skateboard/person-1.png",
+  person2:
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688217/suburbia-skateboard/person-2.png",
+  person3:
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688220/suburbia-skateboard/person-3.png",
+  person4:
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688217/suburbia-skateboard/person-4.png",
 } as const;
