@@ -118,4 +118,6 @@ export const publicAssets = {
     sophieFront:
       "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603145/suburbia-skateboard/team/team-sophie-front.png",
   },
+  footer:
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785773506/suburbia-skateboard/footer.jpg",
 } as const;
