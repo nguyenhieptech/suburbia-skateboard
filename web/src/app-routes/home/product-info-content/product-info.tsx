@@ -11,7 +11,7 @@ export function ProductInfo({ productInfo }: { productInfo: ProductInfo }) {
     <Container
       as="div"
       className={cn(
-        `sticky top-[calc(var(--index)*2rem)] bg-[url('/bg-texture.webp')] bg-size-[720px_460px] bg-center bg-repeat`,
+        "sticky top-[calc(var(--index)*2rem)] bg-[url('/bg-texture.webp')] bg-size-[720px_460px] bg-center bg-repeat",
         productInfo.theme === "blue" && "bg-brand-blue text-white",
         productInfo.theme === "orange" && "bg-brand-orange text-white",
         productInfo.theme === "navy" && "bg-brand-navy text-white",

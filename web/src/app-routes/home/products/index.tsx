@@ -59,7 +59,10 @@ export function Products() {
   const products = getProducts();
 
   return (
-    <Container className="bg-brand-gray bg-[url('/bg-texture.webp')] bg-size-[720px_460px] bg-center bg-repeat">
+    <Container
+      id="home-products"
+      className="bg-brand-gray bg-[url('/bg-texture.webp')] bg-size-[720px_460px] bg-center bg-repeat"
+    >
       <SlideIn>
         <TypographyHeading className="fl-mb-4/6 text-center" as="h2">
           Latest Drop
