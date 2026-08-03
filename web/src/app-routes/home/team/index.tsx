@@ -18,7 +18,7 @@ export function Team() {
           The Team
         </TypographyHeading>
       </SlideIn>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
         {team.map((member, index) => (
           <React.Fragment key={index}>
             <SlideIn>
