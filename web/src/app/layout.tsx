@@ -29,9 +29,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="en"
       className={cn(bowlby.variable, dmMono.variable, "scroll-smooth antialiased")}
     >
-      <AppProvider>
-        <body>{children}</body>
-      </AppProvider>
+      <body>
+        <AppProvider>{children}</AppProvider>
+      </body>
     </html>
   );
 }
