@@ -5,6 +5,8 @@
 
 An animated 3D landing page for a skateboard brand featuring an interactive 3D visual customizer.
 
+Link: https://suburbia-skateboard-brand.vercel.app
+
 ## Tech stack
 
 - NextJS
