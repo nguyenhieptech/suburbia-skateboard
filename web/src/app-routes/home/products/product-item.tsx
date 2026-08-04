@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa6";
 import { Button } from "@/components/button";
 import { TypographyHeading } from "@/components/typography";
@@ -49,7 +50,13 @@ export function ProductItem({ product }: { product: SkateboardProductItem }) {
         {product.name}
       </TypographyHeading>
       <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-        <Button>Customize</Button>
+        <Button>
+          <Link
+            href={`/customizer?deck=${product.deck}&wheel=${product.wheel}&truck=${product.truck}&bolt=${product.bolt}`}
+          >
+            Customize
+          </Link>
+        </Button>
       </div>
     </div>
   );

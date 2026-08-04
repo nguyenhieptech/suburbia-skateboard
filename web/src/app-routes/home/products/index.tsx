@@ -12,6 +12,10 @@ export interface SkateboardProductItem {
   imgUrl: string;
   imgAlt: string;
   scribbleColor: string;
+  deck: string;
+  wheel: string;
+  truck: string;
+  bolt: string;
 }
 
 function getProducts(): SkateboardProductItem[] {
@@ -24,6 +28,10 @@ function getProducts(): SkateboardProductItem[] {
       imgUrl: publicAssets.complete.completeGreenNavy,
       imgAlt: "green-navy",
       scribbleColor: "oklch(0.72 0.16 122.62)",
+      deck: "green-navy",
+      wheel: "lime",
+      truck: "black",
+      bolt: "lime",
     },
     {
       id: "2",
@@ -33,6 +41,10 @@ function getProducts(): SkateboardProductItem[] {
       imgUrl: publicAssets.complete.completePinkDrop,
       imgAlt: "pink-drop",
       scribbleColor: "oklch(0.66 0.2 9.66)",
+      deck: "pink-swirl",
+      wheel: "cream",
+      truck: "silver",
+      bolt: "white",
     },
     {
       id: "3",
@@ -42,6 +54,10 @@ function getProducts(): SkateboardProductItem[] {
       imgUrl: publicAssets.complete.completeYellowBlack,
       imgAlt: "yellow-black",
       scribbleColor: "oklch(0.89 0.14 103.9)",
+      deck: "yellow-black",
+      wheel: "yellow",
+      truck: "black",
+      bolt: "yellow",
     },
     {
       id: "4",
@@ -51,6 +67,10 @@ function getProducts(): SkateboardProductItem[] {
       imgUrl: publicAssets.complete.completeGridStreaks,
       imgAlt: "grid-streaks",
       scribbleColor: "oklch(0.39 0.12 262.31)",
+      deck: "grid-streaks",
+      wheel: "navy",
+      truck: "black",
+      bolt: "silver",
     },
   ];
 }
