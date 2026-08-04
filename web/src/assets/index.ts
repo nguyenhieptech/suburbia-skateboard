@@ -5,15 +5,15 @@ export const publicAssets = {
   metalNormal:
     "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603411/suburbia-skateboard/metal-normal.avif",
   gripTapeRoughness:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603412/suburbia-skateboard/griptape-roughness.webp",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603412/suburbia-skateboard/griptape-roughness.avif",
   gripTapeDiffuse:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603409/suburbia-skateboard/griptape-diffuse.webp",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603409/suburbia-skateboard/griptape-diffuse.avif",
   imageTexture:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603362/suburbia-skateboard/image-texture.png",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603362/suburbia-skateboard/image-texture.avif",
   bgTexture:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603360/suburbia-skateboard/bg-texture.webp",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603360/suburbia-skateboard/bg-texture.avif",
   videoMask:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603358/suburbia-skateboard/video-mask.png",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603358/suburbia-skateboard/video-mask.avif",
   hdr: {
     warehouseHdri:
       "https://res.cloudinary.com/dng1meo0n/raw/upload/v1785673971/suburbia-skateboard/hdr/warehouse-hdri.hdr",
@@ -24,100 +24,100 @@ export const publicAssets = {
   },
   deck: {
     deckAgainstTheTide:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-against-the-tide.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-against-the-tide.avif",
     deckBlackYellow:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-black-yellow.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-black-yellow.avif",
     deckDefault:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603254/suburbia-skateboard/deck/deck-default.webp",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603254/suburbia-skateboard/deck/deck-default.avif",
     deckGrayBlack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-gray-black.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-gray-black.avif",
     deckGreenNavy:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-green-navy.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-green-navy.avif",
     deckGridStreaks:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602822/suburbia-skateboard/deck/deck-grid-streaks.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602822/suburbia-skateboard/deck/deck-grid-streaks.avif",
     deckOniMask:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602822/suburbia-skateboard/deck/deck-oni-mask.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602822/suburbia-skateboard/deck/deck-oni-mask.avif",
     deckPinkSwirl:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-pink-swirl.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-pink-swirl.avif",
     deckRedBlack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-red-black.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602821/suburbia-skateboard/deck/deck-red-black.avif",
     deckRedWhite:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602822/suburbia-skateboard/deck/deck-red-white.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602822/suburbia-skateboard/deck/deck-red-white.avif",
     deckThankYou:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602822/suburbia-skateboard/deck/deck-thank-you.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602822/suburbia-skateboard/deck/deck-thank-you.avif",
     deckYellowBlack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602822/suburbia-skateboard/deck/deck-yellow-black.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602822/suburbia-skateboard/deck/deck-yellow-black.avif",
   },
   wheel: {
     wheelBlack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-black.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-black.avif",
     wheelBlue:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602862/suburbia-skateboard/wheel/wheel-blue.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602862/suburbia-skateboard/wheel/wheel-blue.avif",
     wheelCream:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602863/suburbia-skateboard/wheel/wheel-cream.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602863/suburbia-skateboard/wheel/wheel-cream.avif",
     wheelGreen:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602863/suburbia-skateboard/wheel/wheel-green.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602863/suburbia-skateboard/wheel/wheel-green.avif",
     wheelNavy:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602863/suburbia-skateboard/wheel/wheel-navy.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602863/suburbia-skateboard/wheel/wheel-navy.avif",
     wheelPink:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-pink.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-pink.avif",
     wheelPurple:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-purple.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-purple.avif",
     wheelRed:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-red.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-red.avif",
     wheelYellow:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-yellow.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-yellow.avif",
   },
   complete: {
     completeBlackYellow:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603918/suburbia-skateboard/complete/complete-black-yellow.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603918/suburbia-skateboard/complete/complete-black-yellow.avif",
     completeGrayBlack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603917/suburbia-skateboard/complete/complete-gray-black.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603917/suburbia-skateboard/complete/complete-gray-black.avif",
     completeGreenNavy:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603920/suburbia-skateboard/complete/complete-green-navy.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603920/suburbia-skateboard/complete/complete-green-navy.avif",
     completeGridStreaks:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603907/suburbia-skateboard/complete/complete-grid-streaks.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603907/suburbia-skateboard/complete/complete-grid-streaks.avif",
     completeOniMask:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603914/suburbia-skateboard/complete/complete-onimask.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603914/suburbia-skateboard/complete/complete-onimask.avif",
     completePinkDrop:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603905/suburbia-skateboard/complete/complete-pink-drop.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603905/suburbia-skateboard/complete/complete-pink-drop.avif",
     completeRedBlack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603922/suburbia-skateboard/complete/complete-red-black.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603922/suburbia-skateboard/complete/complete-red-black.avif",
     completeRedWhite:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603913/suburbia-skateboard/complete/complete-red-white.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603913/suburbia-skateboard/complete/complete-red-white.avif",
     completeThankYou:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603911/suburbia-skateboard/complete/complete-thank-you.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603911/suburbia-skateboard/complete/complete-thank-you.avif",
     completeYellowBlack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603909/suburbia-skateboard/complete/complete-yellow-black.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603909/suburbia-skateboard/complete/complete-yellow-black.avif",
   },
   bgPaint:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688229/suburbia-skateboard/bg-paint.png",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688229/suburbia-skateboard/bg-paint.avif",
   person1:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688219/suburbia-skateboard/person-1.png",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688219/suburbia-skateboard/person-1.avif",
   person2:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688217/suburbia-skateboard/person-2.png",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688217/suburbia-skateboard/person-2.avif",
   person3:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688220/suburbia-skateboard/person-3.png",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688220/suburbia-skateboard/person-3.avif",
   person4:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688217/suburbia-skateboard/person-4.png",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785688217/suburbia-skateboard/person-4.avif",
   team: {
     carterBack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603148/suburbia-skateboard/team/team-carter-back.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603148/suburbia-skateboard/team/team-carter-back.avif",
     carterFront:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603147/suburbia-skateboard/team/team-carter-front.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603147/suburbia-skateboard/team/team-carter-front.avif",
     dylanBack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603146/suburbia-skateboard/team/team-dylan-back.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603146/suburbia-skateboard/team/team-dylan-back.avif",
     dylanFront:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603143/suburbia-skateboard/team/team-dylan-front.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603143/suburbia-skateboard/team/team-dylan-front.avif",
     jordanBack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603142/suburbia-skateboard/team/team-jordan-back.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603142/suburbia-skateboard/team/team-jordan-back.avif",
     jordanFront:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603146/suburbia-skateboard/team/team-jordan-front.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603146/suburbia-skateboard/team/team-jordan-front.avif",
     sophieBack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603144/suburbia-skateboard/team/team-sophie-back.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603144/suburbia-skateboard/team/team-sophie-back.avif",
     sophieFront:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603145/suburbia-skateboard/team/team-sophie-front.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785603145/suburbia-skateboard/team/team-sophie-front.avif",
   },
   footer:
-    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785773506/suburbia-skateboard/footer.jpg",
+    "https://res.cloudinary.com/dng1meo0n/image/upload/v1785773506/suburbia-skateboard/footer.avif",
 } as const;
