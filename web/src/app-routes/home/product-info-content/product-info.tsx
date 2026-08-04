@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "@/components/button";
 import { Container } from "@/components/container";
 import { SlideIn } from "@/components/slide-in";
@@ -35,9 +36,11 @@ export function ProductInfo({ productInfo }: { productInfo: ProductInfo }) {
             <p className="max-w-md text-lg leading-relaxed">{productInfo.description}</p>
           </SlideIn>
           <SlideIn>
-            <Button color={productInfo.theme === "lime" ? "orange" : "lime"}>
-              {productInfo.buttonText}
-            </Button>
+            <Link href="/customizer">
+              <Button color={productInfo.theme === "lime" ? "orange" : "lime"}>
+                {productInfo.buttonText}
+              </Button>
+            </Link>
           </SlideIn>
         </div>
 

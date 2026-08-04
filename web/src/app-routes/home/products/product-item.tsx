@@ -50,13 +50,11 @@ export function ProductItem({ product }: { product: SkateboardProductItem }) {
         {product.name}
       </TypographyHeading>
       <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-        <Button>
-          <Link
-            href={`/customizer?deck=${product.deck}&wheel=${product.wheel}&truck=${product.truck}&bolt=${product.bolt}`}
-          >
-            Customize
-          </Link>
-        </Button>
+        <Link
+          href={`/customizer?deck=${product.deck}&wheel=${product.wheel}&truck=${product.truck}&bolt=${product.bolt}`}
+        >
+          <Button>Customize</Button>
+        </Link>
       </div>
     </div>
   );

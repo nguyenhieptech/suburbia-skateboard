@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "@/components/button";
 import { Container } from "@/components/container";
 import { TypographyHeading } from "@/components/typography";
@@ -25,9 +26,11 @@ export function Hero() {
             Not just a board, <span className="text-brand-purple italic">your </span>
             board. Design a board that&apos;s as real as the places you take it.
           </div>
-          <Button icon="skateboard" size="lg" className="z-20 mt-2">
-            <span>Build your board</span>
-          </Button>
+          <Link href="/customizer" className="hover:cursor-pointer">
+            <Button icon="skateboard" size="lg" className="z-20 mt-2">
+              <span>Build your board</span>
+            </Button>
+          </Link>
         </div>
       </div>
 

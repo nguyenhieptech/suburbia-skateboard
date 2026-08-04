@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/button";
 import { cn } from "@/lib/utils";
 import { type TeamMember } from ".";
@@ -39,7 +40,9 @@ export function Member({ member, index }: { member: TeamMember; index: number })
           <span className="block">{member.lastName}</span>
         </h3>
       </div>
-      <Button size="sm">Build their board</Button>
+      <Link href="/customizer">
+        <Button size="sm">Build their board</Button>
+      </Link>
     </div>
   );
 }
