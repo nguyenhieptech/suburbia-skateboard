@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { publicAssets } from "@/assets";
 import { Container } from "@/components/container";
+import { FooterPhysics } from "@/components/footer-physics";
 import { Logo } from "@/components/logo";
 
 export function Footer() {
@@ -16,8 +17,10 @@ export function Footer() {
           className="h-full w-full object-cover"
           width={1400}
           height={800}
+          loading="eager"
         />
         <Logo className="fl-top-10/18 fl-left-10/18 pointer-events-none absolute h-20 mix-blend-exclusion md:h-28" />
+        <FooterPhysics />
       </div>
       <Container as="nav">
         <ul className="fl-text-lg/xl flex flex-wrap justify-center gap-8">
