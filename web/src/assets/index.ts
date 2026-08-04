@@ -50,7 +50,7 @@ export const publicAssets = {
   },
   wheel: {
     wheelBlack:
-      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-yellow.png",
+      "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602864/suburbia-skateboard/wheel/wheel-black.png",
     wheelBlue:
       "https://res.cloudinary.com/dng1meo0n/image/upload/v1785602862/suburbia-skateboard/wheel/wheel-blue.png",
     wheelCream:

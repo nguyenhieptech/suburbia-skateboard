@@ -35,7 +35,7 @@ export function Footer() {
 function getFooterLinks() {
   return [
     { id: "1", label: "Team", href: "#home-team" },
-    { id: "2", label: "Customize", href: "/customize" },
+    { id: "2", label: "Customizer", href: "/customizer" },
     { id: "3", label: "About", href: "" },
   ];
 }

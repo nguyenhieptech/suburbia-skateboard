@@ -3,6 +3,8 @@ import { Button } from "@/components/button";
 import { Logo } from "@/components/logo";
 
 export function Header() {
+  const headerLinks = getHeaderLinks();
+
   return (
     <header className="header fl-h-32/48 fl-py-4/6 fl-px-4/6 absolute top-0 right-0 left-0 z-50 md:h-32">
       <div className="mx-auto grid w-full max-w-6xl grid-cols-[auto,auto] items-center gap-6 md:grid-cols-[1fr,1fr,1fr]">
@@ -14,9 +16,11 @@ export function Header() {
           className="col-span-2 md:col-span-1 md:col-start-2 md:row-start-1"
         >
           <ul className="flex flex-wrap items-center justify-center gap-8">
-            <li className="fl-text-lg/xl">Team</li>
-            <li className="fl-text-lg/xl">Customizer</li>
-            <li className="fl-text-lg/xl">About</li>
+            {headerLinks.map((link) => (
+              <li key={link.id} className="fl-text-lg/xl">
+                <Link href={link.href}>{link.label}</Link>
+              </li>
+            ))}
           </ul>
         </nav>
         <div className="row-start-1 justify-self-end">
@@ -28,4 +32,12 @@ export function Header() {
       </div>
     </header>
   );
+}
+
+function getHeaderLinks() {
+  return [
+    { id: "1", label: "Team", href: "#home-team" },
+    { id: "2", label: "Customizer", href: "/customizer" },
+    { id: "3", label: "About", href: "" },
+  ];
 }

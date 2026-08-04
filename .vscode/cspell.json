@@ -54,7 +54,8 @@
     "yoyo",
     "prismic",
     "prismicio",
-    "slicemachine"
+    "slicemachine",
+    "nuqs"
   ],
   // flagWords - list of words to be always considered incorrect
   // This is useful for offensive words and common spelling errors.

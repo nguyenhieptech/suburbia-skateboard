@@ -1,6 +1,7 @@
 import { Bowlby_One_SC, DM_Mono } from "next/font/google";
 import type { Metadata } from "next";
 import { cn } from "@/lib/utils";
+import { AppProvider } from "@/providers/app-provider";
 import "./globals.css";
 
 const bowlby = Bowlby_One_SC({
@@ -28,7 +29,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="en"
       className={cn(bowlby.variable, dmMono.variable, "scroll-smooth antialiased")}
     >
-      <body>{children}</body>
+      <AppProvider>
+        <body>{children}</body>
+      </AppProvider>
     </html>
   );
 }
