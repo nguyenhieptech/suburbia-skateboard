@@ -22,7 +22,3 @@ cd web
 pnpm i
 pnpm dev
 ```
-
-## Course
-
-https://www.youtube.com/watch?v=LBOhVng5rk8
