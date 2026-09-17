@@ -2,7 +2,7 @@ export function Scribble(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 231 312" {...props}>
       <path
-        className="animate-squiggle origin-center opacity-80 transition-[stroke-dashoffset] delay-100 duration-700 ease-in-out [stroke-dasharray:2300] [stroke-dashoffset:-2300] group-hover:[stroke-dashoffset:0]"
+        className="origin-center animate-squiggle opacity-80 transition-[stroke-dashoffset] delay-100 duration-700 ease-in-out [stroke-dasharray:2300] [stroke-dashoffset:-2300] group-hover:[stroke-dashoffset:0]"
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"

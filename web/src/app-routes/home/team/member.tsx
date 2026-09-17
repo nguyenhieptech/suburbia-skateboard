@@ -35,7 +35,7 @@ export function Member({ member, index }: { member: TeamMember; index: number })
           className="z-2 block transform transition-transform duration-1000 ease-in-out group-hover:scale-110"
         />
         <div className="relative z-3 h-48 w-full place-self-end bg-linear-to-t from-black via-transparent to-transparent"></div>
-        <h3 className="text-brand-gray fl-text-2xl/3xl relative z-3 grid place-self-end justify-self-start p-2 font-sans">
+        <h3 className="relative z-3 grid place-self-end justify-self-start p-2 font-sans fl-text-2xl/3xl text-brand-gray">
           <span className="mb-[-.3em] block">{member.firstName}</span>
           <span className="block">{member.lastName}</span>
         </h3>

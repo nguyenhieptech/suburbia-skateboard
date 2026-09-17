@@ -21,7 +21,7 @@ export function CustomizerAppRoute() {
               <Logo className="h-12 text-white" />
             </Link>
           </div>
-          <div className="fl-p-4/6 grow bg-zinc-900 bg-[url('/bg-texture.webp')] bg-size-[720px_460px] bg-center bg-repeat text-white lg:w-96 lg:shrink-0 lg:grow-0">
+          <div className="grow bg-zinc-900 bg-[url('/bg-texture.webp')] bg-size-[720px_460px] bg-center bg-repeat fl-p-4/6 text-white lg:w-96 lg:shrink-0 lg:grow-0">
             <TypographyHeading as="h1" size="sm" className="mt-0 mb-6">
               Build your board
             </TypographyHeading>

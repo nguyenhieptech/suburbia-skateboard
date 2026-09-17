@@ -1,5 +1,5 @@
-import { Bowlby_One_SC, DM_Mono } from "next/font/google";
 import type { Metadata } from "next";
+import { Bowlby_One_SC, DM_Mono } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { AppProvider } from "@/providers/app-provider";
 import "./globals.css";

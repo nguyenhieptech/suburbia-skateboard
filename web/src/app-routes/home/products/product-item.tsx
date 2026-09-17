@@ -25,7 +25,7 @@ export function ProductItem({ product }: { product: SkateboardProductItem }) {
       />
       <HorizontalLine className="-mx-8 stroke-2 text-stone-300 transition-colors group-hover:text-stone-400" />
 
-      <div className="fl-text-sm/2xl flex items-center justify-between">
+      <div className="flex items-center justify-between fl-text-sm/2xl">
         <span>${product.price}</span>
         <span className="inline-flex items-center gap-1">
           <FaStar className="text-yellow-400" />

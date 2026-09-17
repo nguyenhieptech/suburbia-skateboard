@@ -1,11 +1,11 @@
 "use client";
 
 import { Suspense, useEffect, useRef } from "react";
+import { CameraControls, Environment, Preload, useTexture } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 import * as THREE from "three";
 import { publicAssets } from "@/assets";
 import { Skateboard } from "@/components/skateboard";
-import { CameraControls, Environment, Preload, useTexture } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
 import {
   useCustomizerControls,
   wheelOptions,

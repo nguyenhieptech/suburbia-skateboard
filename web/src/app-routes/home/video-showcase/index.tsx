@@ -23,7 +23,7 @@ export function VideoShowcase() {
         <div
           className={cn(
             MASK_CLASSES,
-            "bg-brand-lime absolute inset-0 translate-x-3 translate-y-3"
+            "absolute inset-0 translate-x-3 translate-y-3 bg-brand-lime"
           )}
         />
         <div

@@ -23,8 +23,8 @@ export function Button({
       className={cn(
         "button-cutout group mx-4 inline-flex items-center bg-linear-to-b from-25% to-75% bg-size-[100%_400%] font-bold transition-[filter,background-position] duration-300 hover:bg-bottom",
         size === "sm" && "gap-2.5 py-2 text-base",
-        size === "md" && "fl-py-2.5/3 gap-3 px-1 text-lg",
-        size === "lg" && "fl-text-lg/2xl fl-gap-3/4 fl-px-1/2 fl-py-3/4",
+        size === "md" && "gap-3 px-1 fl-py-2.5/3 text-lg",
+        size === "lg" && "fl-gap-3/4 fl-py-3/4 fl-px-1/2 fl-text-lg/2xl",
         color === "orange" &&
           "from-brand-orange to-brand-lime text-black hover:text-black",
         color === "purple" &&

@@ -10,19 +10,19 @@ export function Hero() {
   return (
     <Container
       id="home-hero"
-      className="bg-brand-pink relative h-dvh overflow-hidden bg-[url('/bg-texture.webp')] bg-size-[720px_460px] bg-center bg-repeat text-zinc-800"
+      className="relative h-dvh overflow-hidden bg-brand-pink bg-[url('/bg-texture.webp')] bg-size-[720px_460px] bg-center bg-repeat text-zinc-800"
     >
       <div className="absolute inset-0 flex items-center pt-20">
-        <WideLogo className="text-brand-purple hidden w-full opacity-20 mix-blend-multiply lg:block" />
-        <TallLogo className="text-brand-purple w-full opacity-20 mix-blend-multiply lg:hidden" />
+        <WideLogo className="hidden w-full text-brand-purple opacity-20 mix-blend-multiply lg:block" />
+        <TallLogo className="w-full text-brand-purple opacity-20 mix-blend-multiply lg:hidden" />
       </div>
 
-      <div className="fl-p-10/16 absolute inset-0 mx-auto mt-24 grid max-w-6xl grid-rows-[1fr,auto] place-items-end px-6">
+      <div className="absolute inset-0 mx-auto mt-24 grid max-w-6xl grid-rows-[1fr,auto] place-items-end fl-p-10/16 px-6">
         <TypographyHeading className="relative max-w-2xl place-self-start">
           Escape the cul-de-sac
         </TypographyHeading>
         <div className="relative flex w-full flex-col items-center justify-between gap-2 lg:flex-row">
-          <div className="fl-text-lg/xl max-w-[45ch] font-semibold">
+          <div className="max-w-[45ch] fl-text-lg/xl font-semibold">
             Not just a board, <span className="text-brand-purple italic">your </span>
             board. Design a board that&apos;s as real as the places you take it.
           </div>

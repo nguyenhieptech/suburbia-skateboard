@@ -6,10 +6,10 @@ export function Header() {
   const headerLinks = getHeaderLinks();
 
   return (
-    <header className="header fl-h-32/48 fl-py-4/6 fl-px-4/6 absolute top-0 right-0 left-0 z-50 md:h-32">
+    <header className="header absolute top-0 right-0 left-0 z-50 fl-h-32/48 fl-py-4/6 fl-px-4/6 md:h-32">
       <div className="mx-auto grid w-full max-w-6xl grid-cols-[auto,auto] items-center gap-6 md:grid-cols-[1fr,1fr,1fr]">
         <Link href="/" className="row-start-1 justify-self-start">
-          <Logo className="text-brand-purple fl-h-12/20" />
+          <Logo className="fl-h-12/20 text-brand-purple" />
         </Link>
         <nav
           aria-label="nav-main"

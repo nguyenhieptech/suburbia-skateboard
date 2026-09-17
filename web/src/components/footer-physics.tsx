@@ -1,7 +1,7 @@
 "use client";
 
-import { Bodies, Engine, Mouse, MouseConstraint, Render, Runner, World } from "matter-js";
 import { useEffect, useRef, useState } from "react";
+import { Bodies, Engine, Mouse, MouseConstraint, Render, Runner, World } from "matter-js";
 import { publicAssets } from "@/assets";
 import { cn } from "@/lib/utils";
 

@@ -1,7 +1,7 @@
 "use client";
 
-import { useQueryStates, parseAsStringEnum } from "nuqs";
 import { createContext, useContext } from "react";
+import { useQueryStates, parseAsStringEnum } from "nuqs";
 import { publicAssets } from "@/assets";
 
 export const deckOptions = [

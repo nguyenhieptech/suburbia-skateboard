@@ -1,13 +1,13 @@
 "use client";
 
-import gsap from "gsap";
 import { Suspense, useEffect, useRef, useState } from "react";
-import * as THREE from "three";
-import { publicAssets } from "@/assets";
-import { Skateboard } from "@/components/skateboard";
 import { useGSAP } from "@gsap/react";
 import { ContactShadows, Environment, Html } from "@react-three/drei";
 import { Canvas, type ThreeEvent, useThree } from "@react-three/fiber";
+import gsap from "gsap";
+import * as THREE from "three";
+import { publicAssets } from "@/assets";
+import { Skateboard } from "@/components/skateboard";
 import { Hotspot } from "./hotspot";
 import { WavyPaths } from "./wavy-paths";
 

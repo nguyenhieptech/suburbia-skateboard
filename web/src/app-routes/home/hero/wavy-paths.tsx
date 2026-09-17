@@ -1,10 +1,10 @@
 "use client";
 
-import gsap from "gsap";
 import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import { useIsSafari } from "@/lib/hooks";
 import { cn } from "@/lib/utils";
-import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);
 

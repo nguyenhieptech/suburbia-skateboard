@@ -19,11 +19,11 @@ export function Footer() {
           height={800}
           loading="eager"
         />
-        <Logo className="fl-top-10/18 fl-left-10/18 pointer-events-none absolute h-20 mix-blend-exclusion md:h-28" />
+        <Logo className="pointer-events-none absolute fl-top-10/18 fl-left-10/18 h-20 mix-blend-exclusion md:h-28" />
         <FooterPhysics />
       </div>
       <Container as="nav">
-        <ul className="fl-text-lg/xl flex flex-wrap justify-center gap-8">
+        <ul className="flex flex-wrap justify-center gap-8 fl-text-lg/xl">
           {footerLinks.map((link) => (
             <li key={link.label} className="hover:underline">
               <Link href={link.href}>{link.label}</Link>
