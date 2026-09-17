@@ -6,9 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "format:write": "prettier --write \"src/**/*.{ts,tsx}\" --cache",
-    "format:check": "prettier --check \"src/**/*.{ts,tsx}\" --cache"
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -35,8 +36,8 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/three": "^0.185.1",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.12",
+    "oxfmt": "^0.68.0",
+    "oxlint": "^1.80.0",
     "prettier": "^3.9.6",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4",

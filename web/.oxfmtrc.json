@@ -1,0 +1,41 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "semi": true,
+  "singleQuote": false,
+  "arrowParens": "always",
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxSingleQuote": false,
+  "bracketSameLine": false,
+  "tabWidth": 2,
+  "printWidth": 90,
+  "sortImports": {
+    "newlinesBetween": false,
+    "customGroups": [
+      {
+        "groupName": "react-next",
+        "elementNamePattern": ["react", "next", "next/**"]
+      },
+      {
+        "groupName": "absolute-imports",
+        "elementNamePattern": ["@/**"]
+      }
+    ],
+    "groups": [
+      "value-builtin",
+      "react-next",
+      "value-internal",
+      "value-external",
+      "absolute-imports",
+      ["value-parent", "value-sibling", "value-index"],
+      "unknown"
+    ],
+    "ignoreCase": true
+  },
+  "sortTailwindcss": {
+    "stylesheet": "./src/app/globals.css",
+    "functions": ["clsx", "cn"],
+    "preserveWhitespace": false
+  },
+  "ignorePatterns": [".next/**", "build/**", "node_modules/**", "**/*.json", "**/*.gltf"]
+}
