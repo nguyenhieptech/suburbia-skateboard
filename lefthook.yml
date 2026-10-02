@@ -1,0 +1,12 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      root: "web/"
+      glob: "web/*.{js,jsx,ts,tsx}"
+      run: pnpm lint:fix {staged_files}
+      stage_fixed: true
+    format:
+      root: "web/"
+      run: pnpm format
+      stage_fixed: true
